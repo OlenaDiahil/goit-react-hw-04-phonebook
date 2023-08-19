@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const ContactForm = ({ handleAddContact }) => {
+export const ContactsForm = ({ handleAddContact }) => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
